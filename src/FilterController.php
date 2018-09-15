@@ -1,6 +1,6 @@
-<?php namespace Froiden\RestAPI;
+<?php namespace Ketan4373\RestAPI;
 
-use Froiden\RestAPI\ApiController;
+use Ketan4373\RestAPI\ApiController;
 
 class FilterController extends ApiController {
 

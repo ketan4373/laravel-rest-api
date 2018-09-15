@@ -1,10 +1,10 @@
-<?php namespace Froiden\RestAPI;
+<?php namespace Ketan4373\RestAPI;
 
 use Carbon\Carbon;
 use Closure;
 use DateTimeInterface;
-use Froiden\RestAPI\Exceptions\RelatedResourceNotFoundException;
-use Froiden\RestAPI\Exceptions\ResourceNotFoundException;
+use Ketan4373\RestAPI\Exceptions\RelatedResourceNotFoundException;
+use Ketan4373\RestAPI\Exceptions\ResourceNotFoundException;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;

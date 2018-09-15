@@ -1,6 +1,6 @@
 <?php
 
-namespace Froiden\RestAPI\Routing;
+namespace Ketan4373\RestAPI\Routing;
 
 use Illuminate\Routing\ResourceRegistrar;
 use Illuminate\Support\Str;

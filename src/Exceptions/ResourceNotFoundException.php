@@ -1,6 +1,6 @@
 <?php
 
-namespace Froiden\RestAPI\Exceptions;
+namespace Ketan4373\RestAPI\Exceptions;
 
 class ResourceNotFoundException extends ApiException
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Froiden\RestAPI;
+namespace Ketan4373\RestAPI;
 
-use Froiden\RestAPI\Exceptions\Parse\NotAllowedToFilterOnThisFieldException;
-use Froiden\RestAPI\Exceptions\ResourceNotFoundException;
-use Froiden\RestAPI\Tests\Models\DummyUser;
+use Ketan4373\RestAPI\Exceptions\Parse\NotAllowedToFilterOnThisFieldException;
+use Ketan4373\RestAPI\Exceptions\ResourceNotFoundException;
+use Ketan4373\RestAPI\Tests\Models\DummyUser;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;

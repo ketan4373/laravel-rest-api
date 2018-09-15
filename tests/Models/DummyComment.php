@@ -1,8 +1,8 @@
 <?php
 
-namespace Froiden\RestAPI\Tests\Models;
+namespace Ketan4373\RestAPI\Tests\Models;
 
-use Froiden\RestAPI\ApiModel;
+use Ketan4373\RestAPI\ApiModel;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
@@ -35,6 +35,6 @@ class DummyComment extends ApiModel
      */
     public function post()
     {
-        return $this->belongsTo('Froiden\RestAPI\Tests\Models\DummyPost');
+        return $this->belongsTo('Ketan4373\RestAPI\Tests\Models\DummyPost');
     }
 }

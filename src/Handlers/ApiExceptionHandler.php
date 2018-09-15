@@ -1,13 +1,13 @@
 <?php
 
-namespace Froiden\RestAPI\Handlers;
+namespace Ketan4373\RestAPI\Handlers;
 
 use App\Exceptions\Handler;
-use Froiden\RestAPI\ApiResponse;
-use Froiden\RestAPI\Exceptions\ApiException;
-use Froiden\RestAPI\Exceptions\Parse\UnknownFieldException;
-use Froiden\RestAPI\Exceptions\UnauthorizedException;
-use Froiden\RestAPI\Exceptions\ValidationException;
+use Ketan4373\RestAPI\ApiResponse;
+use Ketan4373\RestAPI\Exceptions\ApiException;
+use Ketan4373\RestAPI\Exceptions\Parse\UnknownFieldException;
+use Ketan4373\RestAPI\Exceptions\UnauthorizedException;
+use Ketan4373\RestAPI\Exceptions\ValidationException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Database\QueryException;
 use Illuminate\Http\Exception\HttpResponseException;

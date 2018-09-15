@@ -1,9 +1,9 @@
 <?php
 
-namespace Froiden\RestAPI\Exceptions\Parse;
+namespace Ketan4373\RestAPI\Exceptions\Parse;
 
-use Froiden\RestAPI\Exceptions\ApiException;
-use Froiden\RestAPI\Exceptions\ErrorCodes;
+use Ketan4373\RestAPI\Exceptions\ApiException;
+use Ketan4373\RestAPI\Exceptions\ErrorCodes;
 
 class FilterNotFoundException extends ApiException
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Froiden\RestAPI;
+namespace Ketan4373\RestAPI;
 
-use Froiden\RestAPI\Exceptions\ApiException;
+use Ketan4373\RestAPI\Exceptions\ApiException;
 
 class ApiResponse
 {

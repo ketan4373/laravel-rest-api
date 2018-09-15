@@ -1,12 +1,12 @@
 <?php
 
-namespace Froiden\RestAPI;
+namespace Ketan4373\RestAPI;
 
-use Froiden\RestAPI\Exceptions\Parse\InvalidLimitException;
-use Froiden\RestAPI\Exceptions\Parse\InvalidFilterDefinitionException;
-use Froiden\RestAPI\Exceptions\Parse\InvalidOrderingDefinitionException;
-use Froiden\RestAPI\Exceptions\Parse\MaxLimitException;
-use Froiden\RestAPI\Exceptions\Parse\NotAllowedToFilterOnThisFieldException;
+use Ketan4373\RestAPI\Exceptions\Parse\InvalidLimitException;
+use Ketan4373\RestAPI\Exceptions\Parse\InvalidFilterDefinitionException;
+use Ketan4373\RestAPI\Exceptions\Parse\InvalidOrderingDefinitionException;
+use Ketan4373\RestAPI\Exceptions\Parse\MaxLimitException;
+use Ketan4373\RestAPI\Exceptions\Parse\NotAllowedToFilterOnThisFieldException;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;

@@ -1,10 +1,10 @@
 <?php
 
-namespace Froiden\RestAPI\Providers;
+namespace Ketan4373\RestAPI\Providers;
 
-use Froiden\RestAPI\Handlers\ApiExceptionHandler;
-use Froiden\RestAPI\Routing\ApiResourceRegistrar;
-use Froiden\RestAPI\Routing\ApiRouter;
+use Ketan4373\RestAPI\Handlers\ApiExceptionHandler;
+use Ketan4373\RestAPI\Routing\ApiResourceRegistrar;
+use Ketan4373\RestAPI\Routing\ApiRouter;
 use Illuminate\Container\Container;
 use Illuminate\Events\Dispatcher;
 use Illuminate\Routing\RouteCollection;

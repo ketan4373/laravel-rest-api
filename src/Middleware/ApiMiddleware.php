@@ -1,10 +1,10 @@
 <?php
 
-namespace Froiden\RestAPI\Middleware;
+namespace Ketan4373\RestAPI\Middleware;
 
 use Closure;
-use Froiden\RestAPI\ApiResponse;
-use Froiden\RestAPI\Exceptions\UnauthorizedException;
+use Ketan4373\RestAPI\ApiResponse;
+use Ketan4373\RestAPI\Exceptions\UnauthorizedException;
 use Illuminate\Support\Str;
 use Symfony\Component\HttpFoundation\StreamedResponse;
 

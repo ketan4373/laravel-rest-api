@@ -1,10 +1,10 @@
 <?php
 
-namespace Froiden\RestAPI\Routing;
+namespace Ketan4373\RestAPI\Routing;
 
 use Closure;
-use Froiden\RestAPI\Exceptions\ApiException;
-use Froiden\RestAPI\Middleware\ApiMiddleware;
+use Ketan4373\RestAPI\Exceptions\ApiException;
+use Ketan4373\RestAPI\Middleware\ApiMiddleware;
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Routing\ResourceRegistrar;
@@ -25,8 +25,8 @@ class ApiRouter extends Router
      */
     public function resource($name, $controller, array $options = [])
     {
-        if ($this->container && $this->container->bound('Froiden\RestAPI\Routing\ApiResourceRegistrar')) {
-            $registrar = $this->container->make('Froiden\RestAPI\Routing\ApiResourceRegistrar');
+        if ($this->container && $this->container->bound('Ketan4373\RestAPI\Routing\ApiResourceRegistrar')) {
+            $registrar = $this->container->make('Ketan4373\RestAPI\Routing\ApiResourceRegistrar');
         }
         else {
             $registrar = new ResourceRegistrar($this);
